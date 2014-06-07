@@ -1,0 +1,5 @@
+C:\Users\Prajnan\Documents\Visual Studio 2010\Projects\RestService\RestService\bin\RestService.dll
+C:\Users\Prajnan\Documents\Visual Studio 2010\Projects\RestService\RestService\bin\RestService.pdb
+C:\Users\Prajnan\Documents\Visual Studio 2010\Projects\RestService\RestService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Prajnan\Documents\Visual Studio 2010\Projects\RestService\RestService\obj\Debug\RestService.dll
+C:\Users\Prajnan\Documents\Visual Studio 2010\Projects\RestService\RestService\obj\Debug\RestService.pdb

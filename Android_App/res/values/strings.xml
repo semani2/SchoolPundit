@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">list2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="cat">
+        <item>No category selected</item>
+        <item>school</item>
+        <item>college</item>
+    </string-array>
+    <string-array name="loc">
+         <item>No location selected</item>
+        <item>hyderabad</item>
+        <item>bangalore</item>
+    </string-array>
+
+</resources>

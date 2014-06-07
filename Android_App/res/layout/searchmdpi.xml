@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/lightgreen" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:text="SEARCH"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/relativeLayout1"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="16dp"
+       android:text="Institute Name"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/textView2"
+       android:hint="Enter Institute Name"
+       android:layout_marginRight="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginTop="22dp"
+       android:ems="10"
+       android:inputType="textPersonName" />
+
+   <Spinner
+       android:id="@+id/spinner1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignTop="@+id/textView3"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/cat"
+       
+       
+       android:layout_toRightOf="@+id/textView3" />
+     <RelativeLayout
+        android:id="@+id/imglinear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/ImageView15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/editText1"
+         android:layout_marginTop="20dp"
+         android:text="Category"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textSize="18sp" />
+
+     <ImageButton
+         android:id="@+id/imageButton1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/imglinear"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="14dp"
+         android:src="@drawable/search" />
+
+     <Spinner
+         android:id="@+id/spinner2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/imageButton1"
+         android:layout_alignParentLeft="true"
+         android:drawSelectorOnTop="true"
+         android:entries="@array/loc" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/spinner2"
+         android:layout_toLeftOf="@+id/spinner1"
+         android:text="Location"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textSize="18sp" />
+
+</RelativeLayout>
